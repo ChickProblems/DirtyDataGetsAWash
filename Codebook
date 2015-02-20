@@ -1,0 +1,21 @@
+Codebook
+data: this is a frame, unsorted of all combined variable fields specified in the assignment.
+features: this is the table sourced by features.txt.
+final: this is an extracted frame from the data frame titled 'new' and contains columns related to mean, std, subject and activities and has had the mean summarised by subject and activities.
+means: this is the list of rows from features.txt that contains values related to mean.
+new: this is a data frame containing columns from the data frame named 'data' that relate to mean, std, subject and activities.
+stds: this is a list of rows from the features.txt that contain the values related to std.
+subject_test: this is the data frame read from subject_test.txt.
+subject_train: this is the data frame read from subject_train.txt.
+test_block: this is a combinded data frame containing elements from subject_test, x_test, and y_test.
+train_block: this is a combinded data frame containing elements from subject_train, x_train, and y_train.
+x_test: this is a data frame as read from X_test.txt.
+x_train: this is a data frame as read from x_train.txt.
+y_test: this is a data frame as read from y_test.txt.
+y_train: this is a data frame as read from y_train.txt.
+labels: this is a vector containing the titles to the columns for the data frame named 'data'.
+master: this is a vector containing the titles to the columns for the data frame named 'new'.
+
+Original data can be sourced from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
